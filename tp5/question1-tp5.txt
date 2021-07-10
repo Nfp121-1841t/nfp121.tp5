@@ -1,0 +1,7 @@
+Questions à se poser : Que se passe-t-il si on utilise this.add(...) dans cette méthode ? Et this.contains() ? Que déclenche la méthode addAll de la super-classe ?
+
+this.add(..) donne une erreur java.lang.StackOverflowError parceque this relier par la Class Ensemble directement n'est pas a un objet.
+
+this.contains() methode not found.
+
+la methode addAll est utiliser pour ajouter un collection dans une collection courant.
