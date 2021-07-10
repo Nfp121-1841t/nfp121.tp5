@@ -22,10 +22,7 @@ public class Ensemble<T> extends AbstractSet<T> {
 
     public Ensemble<T> union(Ensemble<? extends T> e) {
         // à compléter pour la question1-2
-       /* Iterator it = iterator();
-        while(it.hasNext()){b,
-            
-        }*/
+       
        boolean bool = this.addAll(e);
        if(bool) return this ;
        return this;
